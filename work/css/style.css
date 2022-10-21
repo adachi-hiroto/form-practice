@@ -1,0 +1,154 @@
+@charset "UTF-8";
+.wrapper{
+    width: 100%;
+    background: #cff1ff;
+}
+.page-style{
+    margin: 0 auto;
+    width: 600px;
+}
+.page-title{
+    padding-top: 60px;
+    font-size: 28px;
+    text-align: center;
+}
+.form-style{
+    padding: 50px;
+    background: #ecfaff;
+    margin-top: 60px;
+}
+.form-title{
+    font-size: 24px;
+    text-align: center;
+}
+.personal-content{
+    margin-top: 50px;
+}
+.content-title{
+    font-size: 18px;
+}
+.label-section{
+    margin-top: 25px;
+}
+.label-text{
+    font-size: 14px;
+    color: #464646;
+}
+.input-area{
+    width: 100%;
+    height: 35px;
+    margin-top: 6px;
+    padding: 5px;
+    color: #545658;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+    background: #fdfdfd;
+}
+.required{
+    color: #e40000;
+}
+.flex{
+    display: flex;
+}
+.select-area{
+    margin-top: 6px;
+}
+.select-unit{
+    width: 100%;
+    position: relative;
+}
+.select-unit::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    right: 10px;
+    top: 45%;
+    display: inline-block;
+    border-bottom: 2px solid #c3c3c3;
+    border-right: 2px solid #c3c3c3;
+    transform: rotate(45deg);
+}
+select{
+    appearance: none;
+}
+.gender-area{
+    margin-top: 6px;
+}
+.gender-element{
+    margin-left: 10px;
+}
+.gender-element:first{
+    margin-left: 0px;
+}
+.account-content{
+    margin-top: 50px;
+}
+.contact-content{
+    margin-top: 50px;
+}
+.subscription-content{
+    margin-top: 50px;
+}
+.subscription-label{
+    position: relative;
+    padding-left: 25px;
+}
+.subscription-label::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    margin-top: -8px;
+    border: 1px solid #d9d9d9;
+    background: white;
+}
+input[type=checkbox]{
+    display: none;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+}
+.subscription-unit input:checked+.subscription-label::after{
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 5px;
+    width: 6px;
+    height: 13px;
+    margin-top: -8px;
+    border: 1px solid #0140bf;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+.submit-content{
+    margin-top: 50px;
+}
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.3s;
+    padding: 13px;
+    width: 100%;
+}
+.btn-submit{
+    padding: 13px;
+    background: #0170bf;
+    color: white;
+}
+.other-text{
+    margin-top: 25px;
+    font-size: 10px;
+}
+.link-color{
+    color: #0170bf;
+    text-decoration: none;
+}
